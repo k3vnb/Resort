@@ -11,14 +11,36 @@ img {
   text-align: center;
 }
 p {
-  text-transform: uppercase;
+  text-transform: inherit;
   font-size: 20px;
 }
 ul {
   font-size: 23px;
   border-style: groove;
   width: 400px;
+}
+.head-image {
+  width: 100%;
 
+}
+.nav {
+  background-color: #5b5550;
+  text-shadow: 5px 1px 6px rgba(0, 0, 0, 0.5);
 
-
+}
+.nav a {
+  color: white;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.center {
+  text-align: center;
+}
+ul.center {
+  text-align: center;
+  font-weight: normal;
+}
+.space {
+  margin-right: 60px;
 }
